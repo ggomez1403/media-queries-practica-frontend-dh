@@ -178,9 +178,32 @@ footer {
 footer img {
     width: 70px;
     cursor: pointer;
-    right: 20px;
 }
 
+@media screen and (min-width: 530px) and (max-width: 800px) {
+    .card {
+        max-width: 500px;
+        height: 640px;
+    }
+
+    .cards-section {
+        gap: 4rem;
+    }
+
+    .profile-pic {
+        width: 35%;
+        left: 32%;
+    }
+
+    .card-info {
+        margin: 0 2.5rem;
+    }
+
+    .card-info p {
+        height: 140px;
+        font-size: 1.05rem;
+    }
+}
 
 @media screen and (min-width: 800px) {
     main {
@@ -204,5 +227,6 @@ footer img {
 
     footer img {
         position: absolute;
+        right: 20px;
     }
 }
