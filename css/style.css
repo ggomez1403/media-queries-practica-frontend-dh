@@ -182,7 +182,7 @@ footer img {
 
 @media screen and (min-width: 530px) and (max-width: 800px) {
     .card {
-        max-width: 500px;
+        min-width: 500px;
         height: 640px;
     }
 
