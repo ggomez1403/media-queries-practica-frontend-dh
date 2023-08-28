@@ -169,14 +169,14 @@ footer {
     display: flex;
     color: var(--clr-white);
     height: 60px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
 }
 
 footer img {
-    width: 70px;
+    width: 50px;
     cursor: pointer;
 }
 
